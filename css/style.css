@@ -6,16 +6,25 @@
   box-sizing: border-box;
 }
 
+/* a {
+  text-decoration: none;
+} */
+
 /* font */
 body {
   font-family: 'Roboto', sans-serif;
 }
 
 nav {
+  border: solid 0.5px;
 }
 
 nav ul {
   display: flex;
   list-style-type: none;
   justify-content: space-between;
+}
+
+nav li {
+  padding: 25px;
 }
