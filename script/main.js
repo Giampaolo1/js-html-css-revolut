@@ -14,11 +14,13 @@ $( document ).ready(function() {
 
   $(".dropdown").click(function(){
     $(".dropdowncontent").toggle();
-
-
-
-
   })
+
+  $(".dropdown2").click(function(){
+    $(".dropdowncontent2").toggle();
+  })
+
+  // Invece di ripetere il codice, potrei dare active non active e add class remove class, tipo il carousel
 
 
 

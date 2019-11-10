@@ -10,6 +10,20 @@
   text-decoration: none;
 } */
 
+li {
+  cursor: pointer;
+  /* text-decoration: none; */
+}
+
+li:hover {
+  color: lightblue;
+}
+
+a:hover {
+  color: lightblue;
+  text-decoration: none;
+}
+
 /* font */
 body {
   font-family: 'Roboto', sans-serif;
@@ -38,5 +52,15 @@ nav li {
   border: solid;
   padding: 10px;
   display: none;
+}
 
+/* dropdown */
+.dropdown2 {
+  position: relative;
+}
+.dropdowncontent2 {
+  position: absolute;
+  border: solid;
+  padding: 10px;
+  display: none;
 }
